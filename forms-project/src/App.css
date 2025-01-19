@@ -1,0 +1,88 @@
+
+.SubmissionForm {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start; 
+    color: white;
+    padding: 20px;
+    margin: 20px auto; 
+    width: 100%;
+    max-width: 500px; 
+    background-color: #333; 
+    
+}
+
+.userInput {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    background-color: #444; 
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px 0; 
+    width: 100%; 
+}
+
+.userInput input {
+    padding: 8px;
+    margin-top: 5px; 
+    width: 100%; 
+    border: none;
+    border-radius: 4px; 
+    background-color: #555; 
+    color: white;
+}
+
+.userInput input.error {
+    border: 2px solid red; 
+}
+
+.userInput p {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+input[type="submit"] {
+    background-color: #ff5733; 
+    color: white;
+    padding: 12px 20px;
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    border-radius: 6px; 
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #e14e2b; 
+}
+.userDetails {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #444; 
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    color: white;
+}
+
+.userDetails h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.userDetails p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+
+
+

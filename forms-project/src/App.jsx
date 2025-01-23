@@ -1,12 +1,21 @@
+import { useState } from 'react'
 import './App.css'
-import SubmissionForm from './components/SubmissionForm'
-function App() {
-  
+import UserRegistration from './components/UserRegistration'
+import UserList from './components/UserList'
+
+
+const App = () => {
+    const [users, setUsers] = useState([])
+
+    const addUser = (newUser) => {
+      setUsers((prev) => [...prev, newUser])
+    }
 
   return (
-    <>
-      <SubmissionForm/>
-    </>
+    <div className="App">
+      <UserRegistration onAddUser={addUser}/>
+      <UserList users={users}/>
+    </div>
   )
 }
 

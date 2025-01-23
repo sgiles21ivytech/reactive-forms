@@ -1,5 +1,5 @@
 
-.SubmissionForm {
+.UserRegistrationForm {
     display: flex;
     flex-direction: column; 
     align-items: center; 
@@ -10,7 +10,6 @@
     width: 100%;
     max-width: 500px; 
     background-color: #333; 
-    
 }
 
 .userInput {
@@ -45,7 +44,6 @@
     margin-top: 5px;
 }
 
-
 input[type="submit"] {
     background-color: #ff5733; 
     color: white;
@@ -61,8 +59,9 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #e14e2b; 
 }
+
 .userDetails {
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 20px;
     background-color: #444; 
     width: 100%;
@@ -80,9 +79,9 @@ input[type="submit"]:hover {
 
 .userDetails p {
     font-size: 18px;
+    margin-bottom: 20px;
     margin: 5px 0;
 }
-
 
 
 
